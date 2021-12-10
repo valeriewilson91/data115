@@ -16,22 +16,13 @@ vgsales<- read.csv("vgsales.csv")
 There are a huge number of different genres within the video game world; shooters, role-playing, platformers, fighting, etc. Are the same genres universally popular, or do different countries prefer different types of games? The purpose of my analysis is to assess how the popularity of a video game genre varies by region.
 
 
-# Data
+# Data Process
 
 The data comes from a web scrape of vgchartz.com and includes 16,598 video game sales. Only games with sales greater than 100,000 copies are included. I will be looking at the popularity of genres in five regions; North America, European Union, Japan, Other (remainder of the world), and Global.
 
 I have eliminated three columns from the original data (Platform, Year, Publisher) because they were not relevant to my research.
 
-I have kept eight variables from the original dataset:
-
-Rank
-Name
-Genre
-NA_Sales
-EU_Sales
-JP_Sales
-Other_Sales
-Global_Sales
+I have kept eight variables from the original dataset: Rank, Name, Genre, NA_Sales, EU_Sales, JP_Sales, Other_Sales, Global_Sales.
 
 My initial observation of the data is that the top selling games in Japan are heavily role-playing games while the top selling games in the US and EU are much more of a mix of all genre types.
 
