@@ -1,7 +1,7 @@
 ---
-title: "Final Project"
+title: "Personal Dataset Project"
 author: "Valerie Wilson"
-date: "12/04/2021"
+date: "12/09/2021"
 output: pdf_document
 ---
 
@@ -11,8 +11,6 @@ library("tidyverse")
 library(ggplot2)
 vgsales<- read.csv("vgsales.csv")
 ```
-
-https://github.com/valeriewilson91/data115
 
 # Motivation
 
@@ -25,23 +23,7 @@ The data comes from a web scrape of vgchartz.com and includes 16,598 video game 
 
 I have eliminated three columns from the original data (Platform, Year, Publisher) because they were not relevant to my research.
 
-I have kept eight variables from the original dataset:
-
-Rank
-
-Name
-
-Genre
-
-NA_Sales
-
-EU_Sales
-
-JP_Sales
-
-Other_Sales
-
-Global_Sales
+I have kept eight variables from the original dataset: Rank, Name, Genre, NA_Sales, EU_Sales, JP_Sales, Other_Sales, Global_Sales.
 
 My initial observation of the data is that the top selling games in Japan are heavily role-playing games while the top selling games in the US and EU are much more of a mix of all genre types.
 
