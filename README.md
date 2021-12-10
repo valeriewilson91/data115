@@ -25,19 +25,12 @@ I have eliminated three columns from the original data (Platform, Year, Publishe
 I have kept eight variables from the original dataset:
 
 Rank
-
 Name
-
 Genre
-
 NA_Sales
-
 EU_Sales
-
 JP_Sales
-
 Other_Sales
-
 Global_Sales
 
 My initial observation of the data is that the top selling games in Japan are heavily role-playing games while the top selling games in the US and EU are much more of a mix of all genre types.
